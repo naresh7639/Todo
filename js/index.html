@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+
+<body>
+    <div class="container">
+        <div class="box-container">
+            <div class="Input-label">
+                <label  for="">Yout Todos:</label>
+                <input id="MyInput" type="text" placeholder="Enter Your Text.">
+                <button onclick="AddTodo()" class="add-btn">ADD</button>
+            </div>
+        </div>
+        <div class="Text-Display-container">
+            <ul id="myUl" class="ul-show">
+                <li style="display:flex;justify-content:space-between;">Hai <button class="remove-btn" onclick="removeTodo()">Remove</button> </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
